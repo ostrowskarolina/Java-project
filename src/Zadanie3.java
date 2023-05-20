@@ -7,7 +7,6 @@ public class Zadanie3 {
     }
 
     public void program() {
-
         int result = this.inputTable[0];
         for (int i = 1; i < this.inputTable.length; i++) {
             int current = this.inputTable[i];
