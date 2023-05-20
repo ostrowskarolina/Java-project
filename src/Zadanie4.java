@@ -9,6 +9,7 @@ public class Zadanie4 {
     }
 
     public char[] program() {
+
         StringBuilder sb = new StringBuilder();
         int prevNumber = -1;
 
