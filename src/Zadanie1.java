@@ -14,12 +14,10 @@ public class Zadanie1 {
             for(int j = 0; j < words.length; j++){
                 first = words[i];
                 second = words[j];
-                if(first.length() + second.length() + 1 < expectedNumber && first != second) {
+                if(first.length() + second.length() + 1 < expectedNumber && !first.equals(second)) {
                     System.out.println(first + " " + second);
                 }
             }
-
         }
     }
-
 }
